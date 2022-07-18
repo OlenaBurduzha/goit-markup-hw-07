@@ -1,0 +1,21 @@
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    transition: color var(--anim-slow);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+        }
+
+}
+.studio {
+    color: var(--color-logo-Studio);
+}
+

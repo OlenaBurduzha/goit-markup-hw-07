@@ -1,0 +1,63 @@
+/*footer*/
+
+.page-footer {
+    background: var(--footer-color);
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.address-container {
+    margin-right: 72px;
+
+}
+
+.address-text {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.address-link {
+    color: var(--background-heder-color);
+}
+
+.google-address {
+    margin-bottom: 6px;
+}
+
+.link-footer {
+    color: var(--color-contacts-address);
+
+    transition: color var(--anim-slow);
+}
+
+
+.footer-studio {
+    color: var(--background-heder-color);
+}
+
+.mail-adress {
+    margin-bottom: 9px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--anim-slow);
+}
+
+.social-icon {
+    fill: var(--background-heder-color);
+}

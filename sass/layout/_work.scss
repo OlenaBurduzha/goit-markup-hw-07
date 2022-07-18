@@ -1,0 +1,27 @@
+.work__list {
+    display: flex;
+    align-items: center;
+
+    & .work__item :not(:last-child) {
+         margin-right: 30px;
+     }
+}
+
+.work__item {
+    position: relative;
+}
+
+.work__text {
+    position: absolute;
+    bottom: 0;
+    padding: 27px 0;
+    width: 100%;
+    font-weight: 700;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-heder-color);
+    background-color: var(--background-label-color);
+}
+
